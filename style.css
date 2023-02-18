@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(5, 15, 56, 0.486);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.logofont{
+    background-image: linear-gradient(to bottom, rgb(3, 10, 54), rgb(63, 102, 133), rgb(37, 126, 118));
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(3, 10, 54), rgb(63, 102, 133), rgb(3, 49, 45));
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+.inputs input {
+    margin-bottom: 30px;
+    
+    
+}
+
+.input{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.inputs label {
+    font-weight: 500;
+    font-size: 15px;
+    color:rgb(255, 255, 255)
+
+}
+
+.containerfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logofooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(5, 15, 56, 0.486);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.logofontfooter{
+    background-image: linear-gradient(to bottom, rgb(9, 18, 78), rgb(103, 43, 156), rgb(3, 49, 45));
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
